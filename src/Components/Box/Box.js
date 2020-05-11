@@ -4,7 +4,7 @@ import './Box.css'
 class Box extends Component {    
 
     static defaultProps = {
-        color: ['black', 'green', 'brown', 'pink', 'violet', 'steelblue', 'yellow']
+        color: ['rgb(226, 137, 152)', 'violet', 'pink', 'aqua', 'steelblue', 'teal']
     }
     state = {
         color: this.props.color[Math.floor(Math.random()*this.props.color.length)],
@@ -26,7 +26,8 @@ class Box extends Component {
     render() {
         
         return (
-            <div className={this.state.color} 
+            <div className="Box"
+            style={{backgroundColor: this.state.color}} 
             onClick={this.clickHandler.bind(this)}>
             </div>
         )
