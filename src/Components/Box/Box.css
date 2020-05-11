@@ -1,0 +1,45 @@
+.black {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(226, 137, 152);
+    border: white;
+    margin: 1rem;
+}
+.green {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(96, 196, 196);
+    margin: 1rem;
+}
+.brown {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(209, 140, 209);
+    margin: 1rem;
+}
+
+.pink {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(175, 118, 228);
+    margin: 1rem;
+}
+.steelblue {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(91, 126, 155);
+    margin: 1rem;
+}
+.yellow {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(151, 201, 241);
+    margin: 1rem;
+}
+
+.violet {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(243, 151, 243);
+    margin: 1rem;
+}
